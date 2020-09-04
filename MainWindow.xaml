@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Parcial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Background="#FFC2AA6D">
+
+        
+
+        <Label Content="OnlyPans" HorizontalAlignment="Center" Height="36" VerticalAlignment="Top" Width="92" FontSize="20" Margin="0,-6,0,0"/>
+        <Frame Name="frameMain" Margin="0,30,0,10" NavigationUIVisibility="Hidden" >
+            
+        </Frame>
 
     </Grid>
 </Window>
