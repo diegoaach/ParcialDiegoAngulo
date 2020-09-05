@@ -22,5 +22,11 @@ namespace Parcial
         {
             InitializeComponent();
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow admin = (MainWindow)Window.GetWindow(this);
+            admin.frameMain.NavigationService.Navigate(new Login());
+        }
     }
 }

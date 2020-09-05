@@ -10,6 +10,9 @@
 
     <Grid Background="#FFC2AA6D" RenderTransformOrigin="0.503,0.518">
         <Label Content="Administrador" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="20" Background="#FFFFE9B0"/>
+
         <Label Content="Hola, bienvenido&#xD;&#xA; a la pagina del administrador" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Background="#FFFFE9B0" FontWeight="Bold" Width="578" Margin="0,167,0,0" Height="104" />
+        <Button Name="btnLogout" Content="Salir" HorizontalAlignment="Left" Margin="39,26,0,0" VerticalAlignment="Top" Height="37" Width="56" FontSize="18" Click="btnLogout_Click"/>
+
     </Grid>
 </Page>
