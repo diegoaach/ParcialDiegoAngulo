@@ -30,7 +30,7 @@ namespace Parcial
                 MainWindow admin = (MainWindow)Window.GetWindow(this);
                 admin.frameMain.NavigationService.Navigate(new admin());
             }
-            else if (txtUser.Text.ToLower() == "empleado" && txtPassword.Password == "empleado"
+            else if (txtUser.Text.ToLower() == "empleado" && txtPassword.Password == "empleado")
             {
                 MainWindow empleado = (MainWindow)Window.GetWindow(this);
                 empleado.frameMain.NavigationService.Navigate(new empleado());
@@ -38,6 +38,28 @@ namespace Parcial
             }
             else
                 MessageBox.Show("Credenciales incorrectas");
+        }
+
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                if (txtUser.Text.ToLower() == "admin" && txtPassword.Password == "admin")
+                {
+                    MainWindow admin = (MainWindow)Window.GetWindow(this);
+                    admin.frameMain.NavigationService.Navigate(new admin());
+                }
+                else if (txtUser.Text.ToLower() == "empleado" && txtPassword.Password == "empleado")
+                {
+                    MainWindow empleado = (MainWindow)Window.GetWindow(this);
+                    empleado.frameMain.NavigationService.Navigate(new empleado());
+
+                }
+                else
+                    MessageBox.Show("Credenciales incorrectas");
+            }
+
+
         }
     }
 }

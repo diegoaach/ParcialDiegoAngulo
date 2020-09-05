@@ -8,7 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="admin">
 
-    <Grid Background="#FFC2AA6D">
-        <Label Content="Administrador" HorizontalAlignment="Left" Margin="294,84,0,0" VerticalAlignment="Top"/>
+    <Grid Background="#FFC2AA6D" RenderTransformOrigin="0.503,0.518">
+        <Label Content="Administrador" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="20" Background="#FFFFE9B0"/>
+        <Label Content="Hola, bienvenido&#xD;&#xA; a la pagina del administrador" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Background="#FFFFE9B0" FontWeight="Bold" Width="578" Margin="0,167,0,0" Height="104" />
     </Grid>
 </Page>

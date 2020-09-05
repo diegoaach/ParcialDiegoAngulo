@@ -5,11 +5,29 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Parcial"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="390" d:DesignWidth="790"
       Title="empleado">
 
     <Grid Background="#FFC2AA6D">
-        <Label Content="Empleado" HorizontalAlignment="Left" Margin="337,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Empleado" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="20" Background="#FFFFE9B0"/>
+        <TextBox Name="txtCliente" HorizontalAlignment="Left" Height="27" Margin="171,90,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Nombre del Cliente: " HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" FontSize="16" Background="#FFFFE9B0"/>
+        <Label Content="Cedula: " HorizontalAlignment="Left" Margin="99,145,0,0" VerticalAlignment="Top" FontSize="16" Background="#FFFFE9B0"/>
+        <TextBox Name="txtCedula" HorizontalAlignment="Left" Height="27" Margin="171,147,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="109,210,0,0" Text="Panes" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="20" FontWeight="Bold" IsReadOnly="True" TextAlignment="Center" Background="#FFFFE9B0"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="10,267,0,0" Text="Pan aliñado" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="16" FontWeight="Normal" IsReadOnly="True" TextAlignment="Center" Background="#FFFFE9B0"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="10,307,0,0" Text="Pan no aliñado" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="16" FontWeight="Normal" IsReadOnly="True" TextAlignment="Center" Background="#FFFFE9B0"/>
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="10,347,0,0" Text="Pan especial" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="16" FontWeight="Normal" IsReadOnly="True" TextAlignment="Center" Background="#FFFFE9B0"/>
+        <TextBox Name="cantPanAli" HorizontalAlignment="Left" Height="25" Margin="182,267,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="cantPanNoAli" HorizontalAlignment="Left" Height="25" Margin="182,307,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="cantPanEsp" HorizontalAlignment="Left" Height="25" Margin="182,347,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+        <StackPanel HorizontalAlignment="Left" Height="338" Margin="499,0,0,0" VerticalAlignment="Center" Width="281" Background="White">
+            <TextBlock Name="txbCliente" Text="" TextWrapping="Wrap" Height="22"/>
+            <TextBlock Name="txbCedula" Text="" TextWrapping="Wrap" Height="22"/>
+            <Label Content="" Height="22"/>
+
+
+        </StackPanel>
 
     </Grid>
 </Page>
